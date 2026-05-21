@@ -1,6 +1,10 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
+
+pub struct rss_object {
+    pub title: String,
+    pub link: String,
+    pub description: String,
 }
+
 
 #[cfg(test)]
 mod tests {
